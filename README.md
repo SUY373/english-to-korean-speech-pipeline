@@ -106,6 +106,17 @@ outputs/
 
 ---
 
+### 6-1. sample_run 결과 설명
+
+`outputs/sample_run/` 디렉터리에는 본 파이프라인을 한 번 실행한 시연 결과가 포함되어 있다.
+
+- `input_16k_mono.wav`: STT 단계에 실제로 입력된 영어 음성 파일 (16kHz, mono)
+- `stt_en.txt`: Whisper를 이용해 추출한 영어 음성 인식 결과
+- `translated_ko.txt`: 영어 텍스트를 한국어로 번역한 결과
+- `result_ko.mp3`: 번역된 한국어 텍스트를 음성으로 합성한 최종 출력
+
+---
+
 ## 7. 결론
 
 본 프로젝트에서는 LibriSpeech의 `test-clean` 데이터셋을 사용하여  
