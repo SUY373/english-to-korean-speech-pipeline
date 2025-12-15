@@ -1,22 +1,18 @@
 # Python cache
 __pycache__/
 *.pyc
-*.pyo
 
 # Virtual environments
+.env
 venv/
-.env/
 .conda/
 
-# Outputs (generated files)
-outputs/
-*.wav
-*.mp3
+# Original input data
+data/
 
-# OS files
-.DS_Store
-Thumbs.db
+# Outputs: ignore everything
+outputs/*
 
-# IDE
-.idea/
-.vscode/
+# Keep sample run only
+!outputs/sample_run/
+!outputs/sample_run/*
